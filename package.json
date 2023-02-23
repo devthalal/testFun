@@ -4,13 +4,14 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js --port=3000"
+        "start": "node index.js --port=3000"
     },
     "type": "module",
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-    "express": "^4.17.3"
+        "@appblocks/node-sdk": "^0.0.4",
+        "express": "^4.17.3"
     }
-  }
+}
