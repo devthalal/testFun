@@ -1,0 +1,14 @@
+{
+  "name": "testFun",
+  "blockId": "HYPMXR6uAuoJTzOxxu2Ce",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/testFun",
+    "ssh": "git@github.com:devthalal/testFun.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
