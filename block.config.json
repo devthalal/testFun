@@ -10,5 +10,9 @@
   "start": "node index.js",
   "build": "",
   "postPull": "npm i",
-  "standAloneBlock": false
+  "standAloneBlock": false,
+  "supportedAppblockVersions": [
+    "1.0.0",
+    "2.0.0"
+  ]
 }
